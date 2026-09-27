@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NÜR | اتصل بنا</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-cream text-charcoal font-sans">
+
+  <!-- Header -->
+  <header class="bg-cream/80 backdrop-blur-md sticky top-0 z-50 border-b border-sand/50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-3xl font-serif font-bold text-charcoal tracking-tight">NÜR</a>
+      <nav class="hidden md:flex gap-8 font-medium text-sm tracking-wide">
+        <a href="index.html" class="hover:text-terracotta transition">الرئيسية</a>
+        <a href="shop.html" class="hover:text-terracotta transition">المتجر</a>
+        <a href="about.html" class="hover:text-terracotta transition">من نحن</a>
+        <a href="contact.html" class="text-terracotta border-b-2 border-terracotta pb-1">اتصل بنا</a>
+      </nav>
+      <a href="cart.html" class="relative bg-charcoal text-cream px-4 py-2 rounded-full text-sm hover:bg-terracotta transition">السلة 🛒</a>
+    </div>
+  </header>
+
+  <!-- Contact Content -->
+  <main class="container mx-auto px-4 py-16">
+    <h1 class="text-4xl md:text-5xl font-serif font-bold text-center mb-12">اتصل بنا</h1>
+    
+    <div class="grid md:grid-cols-2 gap-12 bg-white p-8 md:p-12 rounded-3xl shadow-lg">
+      
+      <!-- الفورم -->
+      <div>
+        <h2 class="text-2xl font-serif font-bold mb-6">أرسل لنا رسالة</h2>
+        <form class="space-y-6">
+          <div>
+            <label class="block text-sm font-bold mb-2 text-warmgrey">الاسم الكامل</label>
+            <input type="text" placeholder="أدخل اسمك" class="w-full border border-sand rounded-xl px-4 py-3 focus:outline-none focus:border-terracotta transition bg-cream/50">
+          </div>
+          <div>
+            <label class="block text-sm font-bold mb-2 text-warmgrey">البريد الإلكتروني</label>
+            <input type="email" placeholder="أدخل بريدك الإلكتروني" class="w-full border border-sand rounded-xl px-4 py-3 focus:outline-none focus:border-terracotta transition bg-cream/50">
+          </div>
+          <div>
+            <label class="block text-sm font-bold mb-2 text-warmgrey">رسالتك</label>
+            <textarea rows="5" placeholder="اكتب رسالتك هنا..." class="w-full border border-sand rounded-xl px-4 py-3 focus:outline-none focus:border-terracotta transition bg-cream/50 resize-none"></textarea>
+          </div>
+          <button type="submit" class="w-full bg-terracotta text-white py-4 rounded-xl font-bold text-lg hover:bg-charcoal transition shadow-lg">
+            إرسال
+          </button>
+        </form>
+      </div>
+
+      <!-- معلومات الاتصال -->
+      <div class="flex flex-col justify-between">
+        <div>
+          <h2 class="text-2xl font-serif font-bold mb-6">معلومات التواصل</h2>
+          <ul class="space-y-6 text-warmgrey">
+            <li class="flex items-start gap-4">
+              <span class="text-2xl">📍</span>
+              <div>
+                <h4 class="font-bold text-charcoal">العنوان</h4>
+                <p class="text-sm">شارع ديدوش مراد، الجزائر العاصمة</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="text-2xl">📞</span>
+              <div>
+                <h4 class="font-bold text-charcoal">الهاتف</h4>
+                <p class="text-sm">0550 00 00 00</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="text-2xl">✉️</span>
+              <div>
+                <h4 class="font-bold text-charcoal">البريد الإلكتروني</h4>
+                <p class="text-sm">hello@nur.dz</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- خريطة (Placeholder) -->
+        <div class="mt-8 bg-sand h-48 rounded-2xl flex items-center justify-center text-warmgrey">
+          <p>خريطة الموقع (Placeholder)</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-charcoal text-cream/70 py-16 border-t border-white/5">
+    <div class="container mx-auto px-4 grid md:grid-cols-3 gap-12 text-center md:text-right">
+      <div>
+        <h4 class="text-cream text-3xl font-serif font-bold mb-4">NÜR</h4>
+        <p class="text-sm leading-relaxed max-w-xs mx-auto md:mx-0">ملابس يومية بجودة عالية وتصميم بسيط. ببساطة تليق بك.</p>
+      </div>
+      <div>
+        <h4 class="text-cream font-bold mb-4">روابط سريعة</h4>
+        <ul class="space-y-3 text-sm">
+          <li><a href="index.html" class="hover:text-terracotta transition">الرئيسية</a></li>
+          <li><a href="shop.html" class="hover:text-terracotta transition">المتجر</a></li>
+          <li><a href="about.html" class="hover:text-terracotta transition">من نحن</a></li>
+          <li><a href="contact.html" class="hover:text-terracotta transition">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-cream font-bold mb-4">تابعنا</h4>
+        <div class="flex gap-6 justify-center md:justify-start text-sm">
+          <a href="#" class="hover:text-terracotta transition">إنستغرام</a>
+          <a href="#" class="hover:text-terracotta transition">فيسبوك</a>
+          <a href="#" class="hover:text-terracotta transition">تيك توك</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-xs mt-12 pt-8 border-t border-white/10 text-warmgrey/50">
+      © 2026 NÜR - جميع الحقوق محفوظة
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NÜR | سلة التسوق</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-cream text-charcoal font-sans">
+
+  <!-- Header -->
+  <header class="bg-cream/80 backdrop-blur-md sticky top-0 z-50 border-b border-sand/50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-3xl font-serif font-bold text-charcoal tracking-tight">NÜR</a>
+      <nav class="hidden md:flex gap-8 font-medium text-sm tracking-wide">
+        <a href="index.html" class="hover:text-terracotta transition">الرئيسية</a>
+        <a href="shop.html" class="hover:text-terracotta transition">المتجر</a>
+        <a href="about.html" class="hover:text-terracotta transition">من نحن</a>
+        <a href="contact.html" class="hover:text-terracotta transition">اتصل بنا</a>
+      </nav>
+      <a href="cart.html" class="bg-terracotta text-white px-4 py-2 rounded-full text-sm font-bold">السلة 🛒</a>
+    </div>
+  </header>
+
+  <!-- Cart Content -->
+  <main class="container mx-auto px-4 py-16">
+    <h1 class="text-4xl md:text-5xl font-serif font-bold text-center mb-12">سلة التسوق</h1>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+      
+      <!-- قائمة المنتجات -->
+      <div class="lg:col-span-2 space-y-6">
+        
+        <!-- منتج 1 -->
+        <div class="bg-white p-4 rounded-2xl shadow-sm flex items-center gap-4">
+          <div class="w-24 h-24 bg-sand rounded-xl overflow-hidden shrink-0">
+            <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=200" class="w-full h-full object-cover">
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-lg">Oversized Hoodie</h3>
+            <p class="text-warmgrey text-sm">المقاس: L</p>
+            <p class="text-terracotta font-bold mt-1">5,900 دج</p>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <div class="flex items-center border border-sand rounded-lg">
+              <button class="px-3 py-1 hover:bg-cream">+</button>
+              <span class="px-3 py-1 border-x border-sand">1</span>
+              <button class="px-3 py-1 hover:bg-cream">-</button>
+            </div>
+            <button class="text-red-500 text-xs hover:underline">إزالة</button>
+          </div>
+        </div>
+
+        <!-- منتج 2 -->
+        <div class="bg-white p-4 rounded-2xl shadow-sm flex items-center gap-4">
+          <div class="w-24 h-24 bg-sand rounded-xl overflow-hidden shrink-0">
+            <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89d?auto=format&fit=crop&q=80&w=200" class="w-full h-full object-cover">
+          </div>
+          <div class="flex-1">
+            <h3 class="font-bold text-lg">Classic Cap</h3>
+            <p class="text-warmgrey text-sm">المقاس: One Size</p>
+            <p class="text-terracotta font-bold mt-1">1,900 دج</p>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <div class="flex items-center border border-sand rounded-lg">
+              <button class="px-3 py-1 hover:bg-cream">+</button>
+              <span class="px-3 py-1 border-x border-sand">2</span>
+              <button class="px-3 py-1 hover:bg-cream">-</button>
+            </div>
+            <button class="text-red-500 text-xs hover:underline">إزالة</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ملخص الطلب -->
+      <div class="lg:col-span-1">
+        <div class="bg-white p-6 rounded-3xl shadow-lg sticky top-24">
+          <h2 class="text-2xl font-serif font-bold mb-6">ملخص الطلب</h2>
+          
+          <div class="space-y-4 text-sm border-b border-sand pb-6 mb-6">
+            <div class="flex justify-between">
+              <span class="text-warmgrey">المجموع الفرعي</span>
+              <span class="font-bold">9,700 دج</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-warmgrey">الشحن</span>
+              <span class="font-bold">500 دج</span>
+            </div>
+          </div>
+          
+          <div class="flex justify-between text-xl font-bold mb-8">
+            <span>المجموع الإجمالي</span>
+            <span class="text-terracotta">10,200 دج</span>
+          </div>
+
+          <button class="w-full bg-terracotta text-white py-4 rounded-xl font-bold text-lg hover:bg-charcoal transition shadow-lg">
+            إتمام الطلب
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-charcoal text-cream/70 py-16 border-t border-white/5 mt-20">
+    <div class="container mx-auto px-4 grid md:grid-cols-3 gap-12 text-center md:text-right">
+      <div>
+        <h4 class="text-cream text-3xl font-serif font-bold mb-4">NÜR</h4>
+        <p class="text-sm leading-relaxed max-w-xs mx-auto md:mx-0">ملابس يومية بجودة عالية وتصميم بسيط. ببساطة تليق بك.</p>
+      </div>
+      <div>
+        <h4 class="text-cream font-bold mb-4">روابط سريعة</h4>
+        <ul class="space-y-3 text-sm">
+          <li><a href="index.html" class="hover:text-terracotta transition">الرئيسية</a></li>
+          <li><a href="shop.html" class="hover:text-terracotta transition">المتجر</a></li>
+          <li><a href="about.html" class="hover:text-terracotta transition">من نحن</a></li>
+          <li><a href="contact.html" class="hover:text-terracotta transition">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-cream font-bold mb-4">تابعنا</h4>
+        <div class="flex gap-6 justify-center md:justify-start text-sm">
+          <a href="#" class="hover:text-terracotta transition">إنستغرام</a>
+          <a href="#" class="hover:text-terracotta transition">فيسبوك</a>
+          <a href="#" class="hover:text-terracotta transition">تيك توك</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-xs mt-12 pt-8 border-t border-white/10 text-warmgrey/50">
+      © 2026 NÜR - جميع الحقوق محفوظة
+    </div>
+  </footer>
+
+</body>
+</html>
